@@ -6,15 +6,15 @@
 /*   By: fathjami <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 18:41:44 by fathjami          #+#    #+#             */
-/*   Updated: 2021/11/26 18:47:59 by fathjami         ###   ########.fr       */
+/*   Updated: 2021/11/27 10:30:44 by fathjami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int count(int nb)
+int	count(int nb)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (nb <= 0)

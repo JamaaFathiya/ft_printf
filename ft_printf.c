@@ -6,7 +6,7 @@
 /*   By: fathjami <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 14:06:26 by fathjami          #+#    #+#             */
-/*   Updated: 2021/11/26 20:23:23 by fathjami         ###   ########.fr       */
+/*   Updated: 2021/11/27 10:09:40 by fathjami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,16 @@ void	core(char c, va_list arg, int *counter)
 		*counter += ft_putnbr(va_arg(arg, int));
 	else if (c == 'u')
 		*counter += ft_putuns(va_arg(arg, unsigned int));
-	else if(c == 'x' || c == 'X')
+	else if (c == 'x' || c == 'X')
 		*counter += ft_putnbr_base(va_arg(arg, int), c);
 	else if (c == '%')
 		*counter += ft_putchar(c);
 }
 
-int ft_printf(const char *format, ...)
+int	ft_printf(const char *format, ...)
 {
-	int count;
-	va_list arg;
+	int		count;
+	va_list	arg;
 
 	count = 0;
 	va_start (arg, format);

@@ -6,7 +6,7 @@
 /*   By: fathjami <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/26 13:23:14 by fathjami          #+#    #+#             */
-/*   Updated: 2021/11/26 18:48:43 by fathjami         ###   ########.fr       */
+/*   Updated: 2021/11/27 10:30:07 by fathjami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	counter(unsigned long int n)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (!n)
@@ -27,7 +27,7 @@ int	counter(unsigned long int n)
 	return (i);
 }
 
-int ft_pointer(unsigned long int n)
+int	ft_pointer(unsigned long int n)
 {
 	char				*b;
 
